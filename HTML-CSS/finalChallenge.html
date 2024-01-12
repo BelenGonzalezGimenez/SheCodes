@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML/CSS</title>
+    <style>
+      h1 {
+        color: #1a64d6;
+        font-size: 34px;
+        line-height: 48px;
+        margin: 0;
+      }
+      ul {
+        padding: 0;
+        margin-top: 16px;
+        margin-bottom: 16px;
+      }
+      li {
+        list-style: none;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin: 0 auto;
+        border-radius: 10px;
+        transition: all 150ms ease-in-out;
+        max-width: 400px;
+      }
+      p {
+        font-size: 18px;
+        font-family: monospace;
+        opacity: 0.7;
+        color: grey;
+      }
+      button {
+        background: #1a64d6;
+        display: block;
+        margin: 20px auto;
+        border: 0.2px solid #1a64d6;
+        border-radius: 30px;
+        font-size: 16px;
+        color: #ffffff;
+        line-height: 22px;
+        padding: 16px 24px;
+        transition: all 200ms ease-in;
+        box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+      }
+      .wether {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      li:hover {
+        background: #fffbef;
+      }
+      button:hover {
+        background: #ffffff;
+        color: #1a64d6;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wether">
+      <h1>⛅<br />Currently 21° in Tokyo</h1>
+      <h2>13°/ <strong>23°</strong></h2>
+      <ul>
+        <li>
+          <h3>🌧Tomorrow</h3>
+          <p>10° / <strong>17°</strong></p>
+        </li>
+        <li>
+          <h3>🌥Saturday</h3>
+          <p>15° / <strong>17°</strong></p>
+        </li>
+        <li>
+          <h3>☀Sunday</h3>
+          <p>25° / <strong>28°</strong></p>
+        </li>
+      </ul>
+      <button>Change city</button>
+      <p>Coded by Belen Gonzalez</p>
+    </div>
+  </body>
+</html>
